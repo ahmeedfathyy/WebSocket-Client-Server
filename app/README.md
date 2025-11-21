@@ -19,6 +19,9 @@ pytest-asyncio>=0.23
 #Since the functions must be async, this specific plugin allows pytest to test asynchronous code correctly.
 
 ## Example Output
-2025-11-21 15:23:47,983 - CLIENT - INFO - Sending request: {'action': 'add', 'params': {'a': -100, 'b': 100}}
-Result of -100 + 100 = 0
+Enter two numbers (e.g., '10 20'): 10 20 
+Result: 30.0
+
+Enter two numbers (e.g., '10 20'): 10 Mobiles
+Invalid input. Please enter numbers only.
 ...
